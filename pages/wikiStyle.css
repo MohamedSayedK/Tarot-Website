@@ -313,14 +313,29 @@ z-index: 2;
 
   border-radius: 1.1vw;
 
-  background-image: url(./assets/cards/foolgroup.png);
-
 }
 
-.card:nth-child(1) .front {
+.fool{
   background-image: url(./assets/Cardsfront/fool.webp);
-  background-position: center;
-} 
+}
+
+.magician{
+  background-image: url(./assets/Cardsfront/magician.webp);
+}
+
+.priestess{
+  background-image: url(./assets/Cardsfront/priestess.webp);
+}
+
+.empress{
+  background-image: url(./assets/Cardsfront/empress.webp);
+}
+
+.emperor{
+  background-image: url(./assets/Cardsfront/emperor.webp);
+}
+
+
 
 
 .card .back {
@@ -328,11 +343,36 @@ z-index: 2;
   background-position: center;
 }
 
-.card:nth-child(1) .back {
+.fool-back{
   background-image: url(./assets/cardsback/foolback.webp);
   transform: rotateY(180deg);
   background-position: center;
 }
+
+.magician-back{
+  background-image: url(./assets/cardsback/magicianback.webp);
+  transform: rotateY(180deg);
+  background-position: center;
+}
+
+.priestess-back{
+  background-image: url(./assets/cardsback/priestessback.webp);
+  transform: rotateY(180deg);
+  background-position: center;
+}
+
+.empress-back{
+  background-image: url(./assets/cardsback/empressback.webp);
+  transform: rotateY(180deg);
+  background-position: center;
+}
+
+.emperor-back{
+  background-image: url(./assets/cardsback/emperorback.webp);
+  transform: rotateY(180deg);
+  background-position: center;
+}
+
 
 .card.flipped .front {
   transform: rotateY(180deg);
