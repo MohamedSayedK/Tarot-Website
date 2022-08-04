@@ -335,6 +335,74 @@ z-index: 2;
   background-image: url(./assets/Cardsfront/emperor.webp);
 }
 
+.hierophant{
+  background-image: url(./assets/Cardsfront/Hierophant.webp);
+}
+
+.lovers{
+  background-image: url(./assets/Cardsfront/lovers.webp);
+}
+
+.chariot{
+  background-image: url(./assets/Cardsfront/chariot.webp);
+}
+
+.strength{
+  background-image: url(./assets/Cardsfront/strength.webp);
+}
+
+.hermit{
+  background-image: url(./assets/Cardsfront/hermit.webp);
+}
+
+.wheel{
+  background-image: url(./assets/Cardsfront/wheeloffortune.webp);
+}
+
+.justice{
+  background-image: url(./assets/Cardsfront/justice.webp);
+}
+
+.hangedman{
+  background-image: url(./assets/Cardsfront/hangedman.webp);
+}
+
+.death{
+  background-image: url(./assets/Cardsfront/death.webp);
+}
+
+.temperance{
+  background-image: url(./assets/Cardsfront/temperence.webp);
+}
+
+.devil{
+  background-image: url(./assets/Cardsfront/devil.webp);
+}
+
+.tower{
+  background-image: url(./assets/Cardsfront/tower.webp);
+}
+
+.star{
+  background-image: url(./assets/Cardsfront/star.webp);
+}
+
+.moon{
+  background-image: url(./assets/Cardsfront/moon.webp);
+}
+
+.sun{
+  background-image: url(./assets/Cardsfront/sun.webp);
+}
+
+.judgement{
+  background-image: url(./assets/Cardsfront/judgement.webp);
+}
+
+.world{
+  background-image: url(./assets/Cardsfront/world.webp);
+}
+
 
 
 
@@ -369,6 +437,108 @@ z-index: 2;
 
 .emperor-back{
   background-image: url(./assets/cardsback/emperorback.webp);
+  transform: rotateY(180deg);
+  background-position: center;
+}
+
+.hierophant-back{
+  background-image: url(./assets/cardsback/hierophanback.webp);
+  transform: rotateY(180deg);
+  background-position: center;
+}
+
+.lovers-back{
+  background-image: url(./assets/cardsback/loversback.webp);
+  transform: rotateY(180deg);
+  background-position: center;
+}
+
+.chariot-back{
+  background-image: url(./assets/cardsback/chariotback.webp);
+  transform: rotateY(180deg);
+  background-position: center;
+}
+
+.strength-back{
+  background-image: url(./assets/cardsback/strengthback.webp);
+  transform: rotateY(180deg);
+  background-position: center;
+}
+
+.hermit-back{
+  background-image: url(./assets/cardsback/hermitback.webp);
+  transform: rotateY(180deg);
+  background-position: center;
+}
+
+.wheel-back{
+  background-image: url(./assets/cardsback/wheeloffortuneback.webp);
+  transform: rotateY(180deg);
+  background-position: center;
+}
+
+.justice-back{
+  background-image: url(./assets/cardsback/justiceback.webp);
+  transform: rotateY(180deg);
+  background-position: center;
+}
+
+.hangedman-back{
+  background-image: url(./assets/cardsback/hangedmanback.webp);
+  transform: rotateY(180deg);
+  background-position: center;
+}
+
+.death-back{
+  background-image: url(./assets/cardsback/deathback.webp);
+  transform: rotateY(180deg);
+  background-position: center;
+}
+
+.temperance-back{
+  background-image: url(./assets/cardsback/temperanceback.webp);
+  transform: rotateY(180deg);
+  background-position: center;
+}
+
+.devil-back{
+  background-image: url(./assets/cardsback/devilback.webp);
+  transform: rotateY(180deg);
+  background-position: center;
+}
+
+.tower-back{
+  background-image: url(./assets/cardsback/towerback.webp);
+  transform: rotateY(180deg);
+  background-position: center;
+}
+
+.star-back{
+  background-image: url(./assets/cardsback/starback.webp);
+  transform: rotateY(180deg);
+  background-position: center;
+}
+
+.moon-back{
+  background-image: url(./assets/cardsback/moonback.webp);
+  transform: rotateY(180deg);
+  background-position: center;
+}
+
+.sun-back{
+  background-image: url(./assets/cardsback/sunback.webp);
+  transform: rotateY(180deg);
+  background-position: center;
+}
+
+.judgement-back{
+  background-image: url(./assets/cardsback/judgementback.webp);
+  transform: rotateY(180deg);
+  background-position: center;
+}
+
+.world-back{
+  background-image: url(./assets/cardsback/worldback.webp);
   transform: rotateY(180deg);
   background-position: center;
 }
