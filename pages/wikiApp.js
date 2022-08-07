@@ -111,6 +111,50 @@ function rotateToMouse(e) {
 
   }
 
+  const menu = document.getElementById("menu");
+
+Array.from(document.getElementsByClassName("menu-item"))
+  .forEach((item, index) => {
+    item.onmouseover = () => {
+      menu.dataset.activeIndex = index;
+    }
+  });
+
+
+const menuButton = document.querySelector(".menu-toggle");
+
+const menuText = document.querySelector(".menu-text");
+
+const body = document.querySelector("body");
+
+menuButton.addEventListener("click", () => {
+
+  body.classList.toggle("lock-scroll");
+
+ const visiblity = menu.getAttribute("data-visible");
+
+ if(visiblity === "false"){
+    menu.setAttribute("data-visible", true);
+    menuButton.setAttribute("data-visible",true);
+    menuText.innerText = "MENU";
+    menuText.style.letterSpacing = "0.5em"
+    menuText.style.transition = "1000ms ease-in"
+ } else{
+    menu.setAttribute("data-visible", false);
+    menuButton.setAttribute("data-visible",false);
+    menuText.innerText = "CLOSE";
+    menuText.style.letterSpacing = "0.7em"
+    menuText.style.transition = "1000ms ease-in"
+ }
+})
+
+
+
+
+
+
+
+
 
 
 

@@ -10,14 +10,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Enriqueta&family=Oranienbaum&family=Stoke&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/d9847ea934.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Home</title>
 </head>
 <body>
     <div id="progressbar"></div>
     <div id="scrollPath"></div>
     <header>
-        <img class="logo" src="./assets/images/logo.png" alt="">
-        <!-- <button></button> -->
+        <a href="index.html">
+            <img class="logo" src="./assets/images/logo.png" alt="">
+        </a>
+        <div>
+            <button class="menu-toggle" data-visible="true" ><span class="sr-only" aria-expanded="false"></span></button>
+            <button class="menu-toggle2" data-visible="true" ><span class="sr-only" aria-expanded="false"></span></button>
+        </div>
+    
+        <div id="menu" data-visible ="true">
+    
+    
+            <div id="menu-items">
+    
+                <div class="menu-item ff-Stoke"><a href="index.html">Home</a></div>
+                <div class="menu-item ff-Stoke"><a href="wiki.html">Wiki</a></div>
+              <div class="menu-item ff-Stoke"><a href="about.html">About</a></div>
+              <div class="menu-item ff-Stoke">CONTACT US</div>
+            </div>
+            <div id="menu-background-image"></div>
+          </div>
     </header>
     <hr class="line">
     <section class="header">
@@ -38,7 +56,6 @@
         </div>
     </section>
     <section class="about">
-        <img class="moon-img" src="./assets/images/space 1.png" alt="">
         <div class="about-card flow txt-light">
             <h2 class="fs-600 ff-Oranienbaum">The Tarot</h2>
             <h3 class="fs-500 ff-Oranienbaum">/ˈtæroʊ - ˈterō/</h3>
