@@ -1378,6 +1378,10 @@ footer{
   left: 0pt;
 }
 
+.copywrite p{
+  font-size: clamp(10px,2vw,1em);
+}
+
 
 .footer-socials a{
   padding-inline:0.5em ;
