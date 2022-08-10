@@ -6,29 +6,6 @@ window.onscroll = function() {
     progress.style.height = progressHeight + "%";
 }
 
-const svg = document.querySelector("svg");
-
-window.addEventListener('load', (event) => {
-    svg.classList.add("active");
-  });
-
-
-
-  let images = ["./assets/images/heart.png","./assets/images/heart2.png","./assets/images/heart.png","./assets/images/heart3.png"];
-
-  let index = 0;
-
-  const heart = document.querySelector('.heart-img');
-
-  function change() {
-    heart.src = images[index];
-    index > 2 ? index = 0 : index++;
- }
-
- window.onload = function () {
-    setInterval(change, 1000);
-};
-
 const cards = document.querySelectorAll(".card");
 
 const glows = document.querySelectorAll('.effect');
