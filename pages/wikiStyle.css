@@ -932,15 +932,3 @@ blockquote{
 
 
 
-
-
-
-/* .header-txt{
-  transform: translateY(10%);
-  opacity: 0;
-  font-size: clamp(1rem,7vw,5rem);
-  display: block;
-  animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
-} /*
-
-
