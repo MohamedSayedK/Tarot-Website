@@ -1,9 +1,3 @@
-// const headerText = document.querySelector('.header-txt');
-
-// setTimeout(() => {
-//     headerText.style.opacity = 1;
-//     headerText.style.transition = "2000ms";
-// }, 2000);
 
 const progress = document.querySelector("#progressbar");
 const totalHeight = document.body.scrollHeight - window.innerHeight;
@@ -96,16 +90,6 @@ function rotateToMouse(e) {
           ${Math.log(distance)* 2}deg
         )
       `;
-      
-      // card.querySelector('.effect').style.backgroundImage = `
-      //   radial-gradient(
-      //     circle at
-      //     ${center.x * 2 + bounds.width/2}px
-      //     ${center.y * 2 + bounds.height/2}px,
-      //     #ffffff55,
-      //     #0000000f
-      //   )
-      // `;
     }
 
 
