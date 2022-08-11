@@ -15,7 +15,7 @@ window.addEventListener('load', (event) => {
 
 
 
-  let images = ["./assets/images/heart.png","./assets/images/heart2.png","./assets/images/heart.png","./assets/images/heart3.png"];
+  let images = ["./assets/images/heart.webp","./assets/images/heart2.webp","./assets/images/heart.webp","./assets/images/heart3.webp"];
 
   let index = 0;
 

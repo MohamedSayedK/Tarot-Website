@@ -268,7 +268,7 @@ select {
 }
 
 main{
-  background-image: url(./assets/images/wiki.png);
+  background-image: url(./assets/images/wiki.webp);
 }
 
 /* navbar */
@@ -445,7 +445,7 @@ main{
   height: 100%;
   width: 100%;
 
-  background-image: url(./assets/images/menu.png);
+  background-image: url(./assets/images/menu.webp);
 
   position: absolute;
   top: 0;
@@ -741,7 +741,7 @@ margin-top: 4em;
   align-items: center;
   text-align: center;
   margin-bottom: 5em;
-  background-image: url(./assets/images/quote.jpg);
+  background-image: url(./assets/images/quote.webp);
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -758,7 +758,7 @@ margin-top: 4em;
   align-items: center;
   text-align: center;
   margin-bottom: 5em;
-  background-image: url(./assets/images/quote.jpg);
+  background-image: url(./assets/images/quote.webp);
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1233,7 +1233,7 @@ z-index: 2;
 }
 
 .wiki-body{
-  background-image: url(./assets/images/wiki2.png);
+  background-image: url(./assets/images/wiki2.webp);
   background-size: contain;
   background-position: center;
 }
