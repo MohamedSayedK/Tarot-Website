@@ -15,11 +15,12 @@ window.addEventListener('load', (event) => {
 
 
 
+
   let images = ["./assets/images/heart.webp","./assets/images/heart2.webp","./assets/images/heart.webp","./assets/images/heart3.webp"];
 
   let index = 0;
 
-  const heart = document.querySelector('.heart-img');
+  const heart = document.querySelector(".heart-img");
 
   function change() {
     heart.src = images[index];
