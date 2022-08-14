@@ -501,6 +501,7 @@ header{
 .header{
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 .header-txt{
@@ -668,7 +669,14 @@ margin-top: 4em;
   height: 100%;
 }
 
+@media (max-width: 79.9rem){
+.header{
+  position: relative;
+}
+}
+
 @media (max-width: 65rem) {
+
 
   .about-section h2{
     font-size: 2em;
