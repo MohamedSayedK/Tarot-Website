@@ -915,7 +915,7 @@ blockquote{
 
 .content p{
   max-width: 70ch;
-  min-width: 30ch;
+  min-width: 20ch;
 }
 
 .content span:nth-child(1) {
