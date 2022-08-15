@@ -546,7 +546,7 @@ margin-top: 4em;
 .text-container p {
   margin: 0 auto;
   max-width: 70ch;
-  min-width: 50ch;
+  min-width: 40ch;
   transform: translateY(10%);
   opacity: 0;
   animation: fade-in 0.8s 1.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
@@ -609,7 +609,7 @@ margin-top: 4em;
   z-index: 5;
   margin: 5rem auto;
   max-width: 40em;
-  min-width: 20em;
+  min-width: 10em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -627,7 +627,7 @@ margin-top: 4em;
 }
 
 .about-card p{
-  min-width: 20ch;
+  min-width: 5ch;
   max-width: 50ch;
 }
 
@@ -779,12 +779,12 @@ margin-top: 4em;
 
 .quote p {
   max-width: 50ch;
-  min-width: 40ch;
+  min-width: 25ch;
 }
 
 .quote2 p {
   max-width: 50ch;
-  min-width: 40ch;
+  min-width: 25ch;
 }
 
 .author{
