@@ -1229,7 +1229,11 @@ z-index: 2;
   .about-section p{
     font-size: clamp(1em,3vw,8em);
     max-width: 70ch;
-    min-width: 50ch;
+    min-width: 20ch;
+  }
+
+  .letter{
+    width: 100%;
   }
 }
 
