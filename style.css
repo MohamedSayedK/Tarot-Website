@@ -397,8 +397,8 @@ main{
 
 .menu-text{
   position: absolute;
-  top: 2rem;
-  right: 6rem;
+  top: 2.4rem;
+  right: 7rem;
   color: white;
   opacity: 1;
   z-index: 2000;
@@ -667,6 +667,12 @@ margin-top: 4em;
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+
+@media (max-width: 50rem) {
+  .menu-text{
+    visibility: hidden;
+  }
 }
 
 @media (max-width: 79.9rem){

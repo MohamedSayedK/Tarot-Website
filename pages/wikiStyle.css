@@ -355,8 +355,8 @@ select {
 
 .menu-text{
   position: absolute;
-  top: 2rem;
-  right: 6rem;
+  top: 2.4rem;
+  right: 7rem;
   color: white;
   opacity: 1;
   z-index: 2000;
@@ -835,6 +835,12 @@ footer{
   height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
+}
+
+@media (max-width: 50rem) {
+  .menu-text{
+    visibility: hidden;
+  }
 }
 
 @media (max-width: 65rem) {
