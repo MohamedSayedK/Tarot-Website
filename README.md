@@ -1,4 +1,4 @@
-# Tarot-Website
+# Tarrochi
 
 Website showcasing AI drawn tarot cards
 
